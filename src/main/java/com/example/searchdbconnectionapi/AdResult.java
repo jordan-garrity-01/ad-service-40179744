@@ -5,8 +5,8 @@ import javax.validation.constraints.NotBlank;
 import java.util.Date;
 
 @Entity
-@Table(name = "searches")
-public class SearchResult {
+@Table(name = "ads")
+public class AdResult {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
